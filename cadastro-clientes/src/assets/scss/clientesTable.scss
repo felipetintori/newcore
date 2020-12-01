@@ -1,0 +1,9 @@
+#clientesTable{
+    tbody{
+        tr{
+            &:nth-child(odd){
+                background-color: $color-body-default;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+header{
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    .logo{
+        img{
+            width: 150px;
+        }
+    }
+    .menu{
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                padding: 10px;
+                a{
+                    color: $color-default;
+                }
+            }
+        }
+    }
+}
+
